@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <p>Temperatura: ${roundedTemp}°C</p>
                                 <p>Odczuwalna temperatura: ${feelsLikeTemp}°C</p>
                                 <p>Pogoda: ${forecast.weather[0].description}</p>
-                                <img src="http://openweathermap.org/img/wn/${icon}.png" alt="Weather icon">
+                                <img src="https://openweathermap.org/img/wn/${icon}.png" alt="Weather icon">
                             </div>
                         `;
                     }
